@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBADB1"
+    tools:context=".water_can_third_page">
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="206dp"
+        android:layout_height="189dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/wateringcan" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Watering Can"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="409dp"
+        android:layout_height="423dp"
+        android:gravity="left"
+        android:text="Materials Needed:\nTin Can, Used Cardboard, Glue Gun\n\nStep 1:\nGRoll the used cardboard into a cone like shape\n\nStep 2:
+\nCut a small potion at the tip of the cone and cut the base of in a 60-degree angle\n\nStep 3:\nGlue the base of the rolled cardboard and the tip pointing up with a glue gun
+\n\nStep 4:\nCut a semi-circle that is a little bit bigger than the radius of the can and paste it in a dome like position in the top side part of the cardboard cone
+\n\nStep 5:\nCut a rectangular piece of cardboard that is a little long and glue the tip of the cardboard at the top part of the cardboard cone and the other part glue it at
+the opposite part that will serve as a handle.\n\nStep 6:\nDesign the watering can pot based in your personal liking."
+        android:textSize="13sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Watering Can Video \nLink. Watch It Here: "
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="262dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

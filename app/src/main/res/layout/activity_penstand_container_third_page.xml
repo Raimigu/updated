@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBADB1"
+    tools:context=".penstand_container_third_page">
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="206dp"
+        android:layout_height="189dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/penstand" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Pen Stand/Container"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="398dp"
+        android:layout_height="406dp"
+        android:gravity="left"
+        android:text="Materials Needed:\nUsed Papers, Pencil, Cardboard, Glue, Paint\n\nStep 1:\nRoll the papers using the pencil to form a rolled paper sticks\n\nStep 2:
+\nLink the rolled paper together by gluing them\n\nStep 3:\nDivide them to four by cutting them vertically and link them by gluing them by their sides
+\n\nStep 4:\nCut 2 circles of cardboard and glue the linked rolled paper around the other circle shaped cardboard
+\n\nStep 5:\nCreate another rolled paper sticks and cover the circle cardboard with it and cut the excess.\n\nStep 6:\nCut the excess into a short stick with same sizes
+and link them and glue it around the covered cardboard\n\nStep 7:\nPaint it to your preferred color"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Pen Stand/Container Video \nLink. Watch It Here: "
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.018"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="271dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

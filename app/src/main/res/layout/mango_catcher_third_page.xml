@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBADB1"
+    tools:context=".mango_catcher_third_page">
+
+    <ImageButton
+        android:id="@+id/image1"
+        android:layout_width="206dp"
+        android:layout_height="189dp"
+        android:gravity="center"
+        android:scaleType="fitXY"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.029"
+        app:srcCompat="@drawable/mangocatcher" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mango Catcher"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="406dp"
+        android:layout_height="406dp"
+        android:gravity="left"
+        android:text="Materials Needed:\nNail, Stick, Plastic Bottle\n\nStep 1:\nGrab a plastic bottle (preferably large)\n\nStep 2:
+\nForm a mango shape on the lower part of the bottle and carve it\n\nStep 3:\nMake a small hole close to the bottle’s opening wherein a nail (fastener) can pierce through
+\n\nStep 4:\nInsert a stick inside the bottle through the opening of it, then pierce the stick with the nail to attach it to the bottle
+\n\nStep 5:\nCatch some mangoes or something"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Mango Catcher Video \nLink. Watch It Here: "
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.006"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="256dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
